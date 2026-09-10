@@ -2,10 +2,11 @@ package com.java;
 
 public class Test3 {
 	
-	static int Count;
+	static int Count=0;
 	
 	{
 		Count++;
+		//System.out.println(Count);
 	}
 
 
