@@ -3,11 +3,25 @@ package com.languagefundamentals;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
+// ==Operator checks the values if the data is Primitive.
+// ==Operator checks the address if the data is Object Types.
+
+
 class Dog{
+	
+	String name;
+	Dog(String name){
+		this.name=name;		
+	}
 	
 }
 
 class Cat{
+	
+	String name;
+	Cat(String name){
+		this.name=name;
+	}
 	
 }
 
@@ -65,12 +79,40 @@ public class DatatypesDemo2 {
 	Boolean boo=true;
 	
 	//User-defined Object Data types
-	Dog d;
-	Cat c;
+	Dog d = new Dog("Puppy");
+	Cat c = new Cat("Cat");
 	
 
 	public static void main(String[] args) {
 		System.out.println("main method started");
+		
+		// -128 to 127  --> Internally its taking the same address
+		//If the values are more than 127 then for every value its creating new object will consider as 
+		// Wrapper caching
+		// ==Operator checks the values if the data is Primitive.
+		// ==Operator checks the address if the data is Object Types.
+//		Integer Object is commonly having 16 bytes of memory but the exact memory footprints depends on the JVM
+		
+		int i5 = 200;
+		int i6 = 200;
+		System.out.println(i5==i6);
+		
+		Object i7 =200;//int-->Integer-->Object
+		byte a = 10;
+		byte b = (byte)(a+30);
+		System.out.println(b);
+		
+		Integer i1 = 100;
+		Integer i2 = 100;
+		System.out.println(i1==i2);//true
+		
+		Integer i3 =200;
+		Integer i4 = 200;
+		System.out.println(i3==i4);//false
+		
+		
+		
+		
 		DatatypesDemo2 d1 = new DatatypesDemo2();
 		
 		//System.out.println(d1.bi1+d1.bi2); - we cannot use + for some objects
@@ -108,10 +150,10 @@ public class DatatypesDemo2 {
 
 		System.out.println(d1.boo);//null
 
-		System.out.println(d1.d);//null
+		System.out.println(d1.d.name);//null
 		
 
-		System.out.println(d1.c);//null
+		System.out.println(d1.c.name);//null
 		
 		
 		
