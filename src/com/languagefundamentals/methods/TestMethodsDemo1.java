@@ -22,42 +22,42 @@ public class TestMethodsDemo1 {
 	}
 
 	static void addition(int a, int b) {
-		System.out.println("addition method called ");// sum
+		System.out.println("1.addition method called ");// sum
 		System.out.println(a + b);
 	}
 
 	static void subtraction(int a, int b) {
-		System.out.println("subtraction method called ");// Difference
+		System.out.println("2.subtraction method called ");// Difference
 		System.out.println(a - b);
 	}
 
 	static void multiplication(int a, int b) {
-		System.out.println("multiplication method called ");// Product
+		System.out.println("3.multiplication method called ");// Product
 		System.out.println(a * b);
 	}
 
 	static void modulus(int a, int b) {
-		System.out.println("modulus method called ");// 98%5 = 3 Reminder
+		System.out.println("4.modulus method called ");// 98%5 = 3 Reminder
 		System.out.println(a % b);
 	}
 
 	static void division(int a, int b) {
-		System.out.println("Division method called ");// Quotient
+		System.out.println("5.Division method called ");// Quotient
 		System.out.println(a / b);// 19
 	}
 
 	static void squares(int n) {
-		System.out.println("Squares of a number");//Squares
+		System.out.println("6.Squares of a number");//Squares
 		System.out.println(n * n);
 	}
 	
 	static void Cube(int n) {
-		System.out.println("Cube of number");//cube
+		System.out.println("7.Cube of number");//cube
 		System.out.println(n*n*n);
 	}
 	
 	static void AreaofaCircle(double r) {
-		System.out.println("Area of a Circle");//Area
+		System.out.println("8.Area of a Circle");//Area
 		System.out.println();
 	}
 
