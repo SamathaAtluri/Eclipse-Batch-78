@@ -3,8 +3,8 @@ package com.languagefundamentals;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
-// ==Operator checks the values if the data is Primitive.
-// ==Operator checks the address if the data is Object Types.
+// == Operator checks the values if the data is Primitive.
+// == Operator checks the address if the data is Object Types.
 
 
 class Dog{
