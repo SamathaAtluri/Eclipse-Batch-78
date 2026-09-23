@@ -22,7 +22,7 @@ class Cat{
 	Cat(String name){
 		this.name=name;
 	}
-	
+	 
 }
 
 public class DatatypesDemo2 {
