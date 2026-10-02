@@ -3,14 +3,14 @@ package com.java;
 
 //Requirements:
 
-//› Create a parameterized constructor to initialize all account details.
-//>  Create a copy constructor that accepts another BankAccount object and copies its values.
-//› Create a method displayAccountdetails) to display the account information.
+// Create a parameterized constructor to initialize all account details.
+// Create a copy constructor that accepts another BankAccount object and copies its values.
+// Create a method displayAccountdetails) to display the account information.
 //In the main method:
 //Create an original BankAccount object.
 //Create a second object using the copy constructor.
 //Change the branch and balance of the copied account.
-//Display both objects •
+//Display both objects 
 
 public class BankAccount2 {
 	int accountNumber;
@@ -19,7 +19,6 @@ public class BankAccount2 {
 	String branch;
 
 	BankAccount2(int accountNumber, String accountHolderName, double balance, String branch) {
-		super();
 		this.accountNumber = accountNumber;
 		this.accountHolderName = accountHolderName;
 		this.balance = balance;
